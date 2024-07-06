@@ -17,11 +17,12 @@ body {
 
 .order-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, red);
+    background-image: linear-gradient(yellow, red);
     padding: 10px 40px;
     border-radius: 20px;
     color: white;
     font-weight: 500;
+
 }
 
 .top-image {
@@ -45,4 +46,51 @@ body {
     height: 36%;
     padding-left: 200px;
     padding-top: 150px;
+}
+
+.about {
+    padding-top: 250px;
+    padding-right: 200px;
+}
+
+.recipies {
+    margin-top: -900px;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+
+.recipe-image {
+    width: 80%;
+    height: 300px;
+}
+
+.items {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 40px;
+}
+
+.item-card {
+    width: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px 50px 20px 50px;
+    box-shadow: 5px 10px 20px gray;
+    border-radius: 50px;
+    text-wrap: pretty;
+}
+
+.third-box {
+    margin-top: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 5px 10px 20px gray;
+    border-radius: 20px;
+}
+
+.thirds {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 30%;
 }
