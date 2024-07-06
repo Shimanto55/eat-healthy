@@ -1,0 +1,48 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flexible-container {
+    display: flex;
+}
+
+.half-width {
+    text-align: left;
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+.order-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.top-image {
+    height: 100%;
+    width: 70%;
+}
+
+.top-msg-deco {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.second-box {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+}
+
+.second-image {
+    height: 36%;
+    padding-left: 200px;
+    padding-top: 150px;
+}
